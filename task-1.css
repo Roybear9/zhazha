@@ -1,0 +1,14 @@
+.wrap{
+    margin: auto;
+    width: 100%;
+    float: left;
+}
+.item {
+    float: left;
+    margin: 1%;
+    width: 31%;
+    padding-top: 31%;
+    background-color: orange;
+    border-radius: 9%;
+
+}
