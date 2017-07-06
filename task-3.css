@@ -1,29 +1,33 @@
+html{font-size:62.5%;}
 body{
     background: #68cdd5;
     width: 100%;
-    font-size: 62.5%;
     padding: 0;
     margin: 0;
 }
 .tips1{
     float: left;
-    padding: 2rem 0rem 2rem 2rem;
+    padding: 2rem 0 2rem 2rem;
 }
-.log{
+.logo{
     text-align: center;
     padding: 10rem 0 4rem 0;
 }
 .text{
     padding:6rem 4rem 12rem 4rem;
-    justify-content:center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .tips2 {
     padding: 0 4rem 12rem 4rem;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
 }
-img,object {
-    max-width: 100%;
+img,object{
+    max-width:100%
+
 }
