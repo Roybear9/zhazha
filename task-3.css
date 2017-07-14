@@ -13,12 +13,14 @@ body{
 }
 .logo{
     text-align: center;
-    padding: 10rem 0 4rem 0;
+    padding: 8rem 0 4rem 0;
 }
 .text{
-    padding:6rem 4rem 10rem 4rem;
+    padding:4rem 4rem 10rem 4rem;
     color: white;
     font-size: 1.5rem;
+    width: 65%;
+    margin: 0 auto;
 }
 .tips2 {
     padding: 0 4rem 0 4rem;
