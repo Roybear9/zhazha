@@ -9,26 +9,23 @@ body{
 .tips1{
     float: left;
     padding: 2rem 0 2rem 2rem;
+
 }
 .logo{
     text-align: center;
     padding: 10rem 0 4rem 0;
 }
 .text{
-    padding:6rem 4rem 12rem 4rem;
+    padding:6rem 4rem 10rem 4rem;
     color: white;
     font-size: 1.5rem;
 }
 .tips2 {
-    padding: 0 4rem 12rem 4rem;
+    padding: 0 4rem 0 4rem;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
     font-size: 1.5rem;
     color: white;
     text-align: center;
-}
-img,object{
-    max-width:100%
-
 }
