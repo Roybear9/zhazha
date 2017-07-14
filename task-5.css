@@ -1,0 +1,29 @@
+html{font-size:62.5%;}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    background: #eff0f4;
+}
+header{
+    position: fixed;
+    background-color: #5fc0cd;
+    width: 100%;
+    text-align: center;
+}
+.back {
+    padding-left: 1rem;
+    position: absolute;
+}
+.self{
+    color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+.top{
+    background-image: url("5-2.png");
+    padding: 6rem 0 0 0;
+}
