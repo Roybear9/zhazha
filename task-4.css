@@ -1,0 +1,71 @@
+html{font-size:62.5%;}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    background: #eff0f4;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #5fc0cd;
+    align-items: center;
+}
+.left{
+    color: white;
+    padding: 0 0 0 1rem;
+}
+.right{
+    color: white;
+    padding: 0 1rem 0 0;
+}
+.zhong{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.iphone{
+    width: 100%;
+    border: 0;
+    height: 65px;
+    background-color: white;
+    background-image: url("4-1.png");
+    background-repeat: no-repeat;
+    background-position: 2rem;
+    padding: 0;
+    outline: none;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.4rem;
+    text-indent: 12rem;
+}
+.psw{
+    width: 100%;
+    height: 65px;
+    border: 0;
+    background-color: white;
+    background-image: url("4-2.png");
+    background-repeat: no-repeat;
+    background-position: 2rem;
+    padding: 0;
+    outline: none;
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.4rem;
+    text-indent: 12rem;
+}
+button{
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 54px;
+    outline: none;
+    border: 0;
+    font-size: 1.6rem;
+    color: white;
+}
+a{
+    color: #8bcdd7;
+    float: right;
+    padding: 1rem 1rem 0 0;
+    text-decoration: underline;
+}
