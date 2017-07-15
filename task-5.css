@@ -4,13 +4,15 @@ body{
     padding: 0;
     margin: 0;
     font-size: 1.4em;
-    background: #eff0f4;
+    background: #ffffff;
 }
 header{
     position: fixed;
     background-color: #5fc0cd;
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 .back {
     padding-left: 1rem;
@@ -22,8 +24,119 @@ header{
     margin: 0 auto;
     text-align: center;
     display: inline-block;
+    padding: 1rem 0 1rem 0;
 }
 .top{
     background-image: url("5-2.png");
-    padding: 6rem 0 0 0;
+    padding: 5rem 0 3rem 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+.photo{
+    padding-left: 2rem;
+}
+.name{
+    color: white;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.age{
+    color: white;
+    padding-left: 2.5rem;
+    font-size: 1.4rem;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.position{
+    padding-left: 2rem;
+}
+.city{
+    padding-left: 1rem;
+    color: white;
+}
+.two{
+    display: flex;
+    align-items: center;
+}
+.jineng{
+    border-left-style: solid;
+    border-left-color: #5fc0cd;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
+.around{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 0 2rem 0 2rem;
+    border-top: solid;
+    border-top-color: gainsboro ;
+    border-bottom: solid;
+    border-bottom-color: gainsboro;
+    border-width: thin;
+}
+.star{
+    padding: 0 1rem 0 2rem;
+}
+.word{
+    color: gainsboro;
+    border-right-style: solid;
+    border-width: thin;
+    border-right-color: gainsboro;
+    padding:0 2rem 0 2rem;
+    margin-right: 2rem;
+    white-space: nowrap
+}
+.a{
+    margin: 0 2rem 0 2rem;
+    border-bottom: solid;
+    border-bottom-color: gainsboro;
+    border-width: thin;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+.price{
+    color: red;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.b{
+    margin: 0 2rem 7rem 2rem;
+    border-bottom: solid;
+    border-bottom-color: gainsboro;
+    border-width: thin;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+.e{
+    border-radius: 10px;
+    border-color: #5fc0cd;
+    border: solid;
+    color: #5fc0cd;
+    width: 50%;
+    font-size: 1.8rem;
+    background-color: white;
+    text-align: center;
+}
+.f{
+    border-radius: 10px;
+    border: solid;
+    border-color: #5fc0cd;
+    color: white;
+    background-color: #5fc0cd;
+    font-size: 1.8rem;
+    width: 50%;
+    text-align: center;
 }
