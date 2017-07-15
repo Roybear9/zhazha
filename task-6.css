@@ -1,0 +1,118 @@
+html{font-size:62.5%;}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    background-color: gainsboro;
+}
+header{
+    position: fixed;
+    background-color: #5fc0cd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.ps{
+    margin: 0.5rem 1rem 0 0;
+    position: absolute;
+    right: 0;
+}
+.position{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -12px -10px;
+    width: 28px;
+    height: 26px;
+    border: 0;
+    background-color: inherit;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #55a8b3;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.master{
+    font-size: 1.8rem;
+    color: white;
+    background-color: #55a8b3;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+}
+.nurse{
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: #5fc0cd;
+    background-color: white;
+    border-color: white;
+    outline: none;
+    border: 0;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8fafb;
+    border-top: thin;
+    border-top-color: #e2eaec;
+}
+.lt{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -83px -10px;
+    width: 40px;
+    height: 50px;
+    border: 0;
+    background-color: inherit;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+.bo1{
+    margin: 2rem 0 0 0;
+    outline: none;
+    border: 0;
+    background-color: inherit;
+    color: #5fc0cd;
+}
+.bo2{
+    margin: 2rem 0 0 0;
+    outline: none;
+    border: 0;
+    background-color: inherit;
+    color: #b3b4b4;
+}
+.rt{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -83px -114px;
+    width: 40px;
+    height: 50px;
+    border: 0;
+    background-color: inherit;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+}
+.cont{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5fc0cd;
+}
+img{
+    margin-top: 4px;
+}
