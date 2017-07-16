@@ -4,7 +4,6 @@ body{
     padding: 0;
     margin: 0;
     font-size: 1.4em;
-    background-color: gainsboro;
 }
 header{
     position: fixed;
@@ -14,6 +13,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 5rem;
+    z-index: 1;
 }
 .ps{
     margin: 0.5rem 1rem 0 0;
@@ -115,4 +115,99 @@ footer{
 }
 img{
     margin-top: 4px;
+}
+main{
+    margin-bottom: 65px;
+}
+.caret{
+    color: #b3b4b4;
+    float: right;
+    margin-top: 0.7rem;
+    margin-right: 10px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5.5rem;
+    background-color: white;
+    padding-bottom: 0.5rem;
+}
+.dropdown-toggle{
+     border-radius: 0;
+     background-color: white;
+     color: #b3b4b4;
+     padding: 0.5rem 0 0.5rem 0;
+     font-size: 1.5rem;
+    outline: none;
+ }
+.a{
+    width: 33.3%;
+}
+.b{
+    width: 33.4%;
+    border-right-color: #e1e5e7;
+    border-left-color: #e1e5e7;
+}
+.c{
+    width: 33.3%;
+}
+.list{
+    background-color: white;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #e1e5e7;
+    padding: 1rem 0 0 0;
+}
+.time{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -12px -58px;
+    width: 27px;
+    height: 20px;
+    border: 0;
+    background-color: inherit;
+    float: left;
+}
+.tm{
+    color: #b3b4b4;
+}
+.day{
+    float: left;
+    margin-left: 27px;
+}
+.price{
+    color: red;
+    padding-left: 65px;
+}
+.go{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -12px -148px;
+    width: 27px;
+    height: 20px;
+    border: 0;
+    background-color: inherit;
+}
+.ipt{
+    display: flex;
+    justify-content: space-between;
+}
+.pos{
+    background-image: url("6-1.png" );
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: -12px -105px;
+    width: 27px;
+    height: 20px;
+    border: 0;
+    background-color: inherit;
+    float: left;
+}
+p{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
 }
