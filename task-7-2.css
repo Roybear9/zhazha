@@ -100,10 +100,10 @@ header{
 }
 .person{
     width: 23%;
-    border: solid;
-    border-color: white;
     margin: 1rem 1rem 2rem 1rem;
-    position: relative;
+}
+.dv{
+
 }
 .per{
     text-align: center;
@@ -113,6 +113,10 @@ header{
     padding-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 300;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: white;
 }
 .num{
     margin: 0;
@@ -121,6 +125,10 @@ header{
     font-size: 1rem;
     text-align: center;
     font-weight: 300;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: white;
 }
 footer{
     z-index: 1;
@@ -144,7 +152,6 @@ footer{
 }
 .choose{
     /*display: none;*/
-    position: absolute;
     bottom: -29px;
     display: flex;
     justify-content: space-between;
