@@ -1,0 +1,40 @@
+html{font-size:62.5%;}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.4em;
+    background-color: #fafafa;
+}
+
+header{
+    width: 100%;
+    background-color: #29b078;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+.choose{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.pick{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-bottom: solid 2px #29b078;
+}
+.pick:hover{
+    border-bottom: solid 2px white;
+}
+.pk{
+    margin-right: -1.5rem;
+}
+.tree{
+    width: 120px;
+}

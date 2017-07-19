@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="task-8-1.css" />
     <title>首页</title>
 </head>
@@ -21,26 +22,36 @@
         </div>
     </div>
     <div class="choose">
-        <p class="pick">首页</p><p class="pick">职业</p><p class="pick">推荐</p><p class="pick">关于</p>
+        <p class="pick">首页</p><p class="pick">职业</p><p class="pick">推荐</p><p class="pick pk">关于</p>
     </div>
 </header>
 <main>
-    <div class="top">
-        <div class="lt">
-            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    <div id="slidershow" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#slidershow" data-slide-to="0"></li>
+            <li data-target="#slidershow" data-slide-to="1"></li>
+            <li data-target="#slidershow" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="8-2.png" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="8-2.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="8-2.png" alt="Third slide">
+            </div>
         </div>
-        <div class="cn">
-            <p class="one">作为你一个初级菜鸟，你是否想要了解   </p>
-            <p class="two"><span class="t1">50万</span>年薪的程序员，都会哪些技能呢？ </p>
-        </div>
-        <div class="rt">
-            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-        </div>
-        <div class="point0">
-            <div class="pt3"></div>
-            <div class="pt3"></div>
-            <div class="pt3"></div>
-        </div>
+
+        <a class="left carousel-control" href="/#slidershow" role="button" data-slide="prev" >
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="/#slidershow" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
     <div class="bdy">
         <div class="what">
@@ -70,89 +81,100 @@
     <div class="how">
         <p class="word4">如何学习</p>
         <div class="how1">
-            <div class="brn"></div>
+            <div class="brn">1</div>
             <p class="word5">匹配你现在的个人情况寻找适合自己的岗位</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">2</div>
             <p class="word5">了解职业前景薪金待遇、竞争压力等</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">3</div>
             <p class="word5">掌握行业内顶级技能</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">4</div>
             <p class="word5">查看职业目标任务</p>
         </div>
         <div class="how2">
-            <div class="brn"></div>
+            <div class="brn">5</div>
             <p class="word5">参考学习资源，掌握技能点，逐个完成任务</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">6</div>
             <p class="word5">加入班级，和小伙伴们互帮互助，一块学习</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">7</div>
             <p class="word5">选择导师，一路引导，加速自己成长</p><div class="tri"></div>
-            <div class="brn"></div>
+            <div class="brn">8</div>
             <p class="word5">完成职业技能，升级业界大牛</p>
         </div>
     </div>
     <div class="show">
         <p class="word4">优秀学员展示</p>
+        <div class="sh">
+        <div class="photo2">
+            <div class="pho1"><img src="8-3.png" ></div>
+            <p class="word7">技术顾问：罗大佑</p>
+            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+        </div>
+        <div class="photo2">
+            <div class="pho1"><img src="8-4.png" width="110" height="110"></div>
+            <p class="word7">技术顾问：罗大佑</p>
+            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+        </div>
+        <div class="photo2">
+            <div class="pho1"><img src="8-5.png" width="110" height="110"></div>
+            <p class="word7">技术顾问：罗大佑</p>
+            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
+        </div>
         <div class="photo1">
-            <div class="pho1"></div>
+            <div class="pho1"><img src="8-6.png"></div>
             <p class="word7">技术顾问：罗大佑</p>
             <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
         </div>
-        <div class="photo2">
-            <div class="pho2"></div>
-            <p class="word7">技术顾问：罗大佑</p>
-            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
         </div>
-        <div class="photo2">
-            <div class="pho2"></div>
-            <p class="word7">技术顾问：罗大佑</p>
-            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
-        </div>
-        <div class="photo2">
-            <div class="pho2"></div>
-            <p class="word7">技术顾问：罗大佑</p>
-            <p class="word8">百度技术总监：互联网基础服务领域，从事虚拟主机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。</p>
-        </div>
-        <div class="point">
+        <div class="point"><div class="pt">
             <div class="pt1"></div>
             <div class="pt2"></div>
             <div class="pt2"></div>
-            <div class="pt2"></div>
+            <div class="pt2"></div></div>
         </div>
     </div>
     <div class="together">
         <p class="word4">战略合作企业</p>
-        <div class="t1"></div>
-        <div class="t2"></div>
-        <div class="t3"></div>
-        <div class="t4"></div>
-        <div class="t5"></div>
+        <div class="toge">
+            <div class="t1"><img src="8-7.png"></div>
+            <div class="t1"><img src="8-8.png"></div>
+            <div class="t1"><img src="8-9.png"></div>
+            <div class="t1"><img src="8-10.png"></div>
+            <div class="t1"><img src="8-11.png"></div>
+        </div>
     </div>
     <div class="friend">
-        <p class="word4">友情链接</p>
-        <ul class="f1">
-            <li>手机软件</li>
-            <li>教师招聘</li>
-            <li>找工作</li>
-            <li>教师招聘</li>
-            <li>找工作</li>
-            <li>手机软件</li>
-            <li>教师招聘</li>
-            <li>手机软件</li>
-            <li>手机软件</li>
-            <li>找工作</li>
-        </ul>
-        <ul class="f1">
-            <li>手机软件</li>
-            <li>教师招聘</li>
-            <li>找工作</li>
-            <li>教师招聘</li>
-            <li>找工作</li>
-            <li>手机软件</li>
-            <li>教师招聘</li>
-            <li>手机软件</li>
-            <li>手机软件</li>
-            <li>找工作</li>
-        </ul>
+        <p class="word11">友情链接</p>
+        <div class="frd1">
+
+            <div class="dian"></div>
+            <p class="word12">手机软件</p>
+            <div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">找工作</p><div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">找工作</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">找工作</p>
+        </div>
+        <div class="frd1">
+
+            <div class="dian"></div>
+            <p class="word12">手机软件</p>
+            <div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">找工作</p><div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">找工作</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">教师招聘</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">手机软件</p><div class="dian"></div>
+            <p class="word12">找工作</p>
+        </div>
+
     </div>
 </main>
 <footer>
@@ -161,25 +183,23 @@
             <p class="word9">技能树——改变你我</p>
             <div class="f1h">
                 <p class="word10">关于我们</p>
-                <p class="word10">联系我们</p>
+                <p class="word10 bor">联系我们</p>
                 <p class="word10">合作企业</p>
             </div>
         </div>
         <div class="f2">
             <p class="word9">旗下网站</p>
             <div class="f2h">
-                <p class="word10">草船云孵化器</p>
-                <p class="word10">最强IT特训营</p>
-                <p class="word10">葡萄藤轻游戏</p>
-                <p class="word10">桌游精灵</p>
+                <div><p class="word13">草船云孵化器</p><p class="word13">最强IT特训营</p></div>
+                <div><p class="word13">葡萄藤轻游戏</p><p class="word13">桌游精灵</p></div>
             </div>
         </div>
         <div class="f3">
             <p class="wechat">微信公众平台</p>
-            <div class="chat"></div>
-        </div>
+            <div class="chat"><img src="8-0.png"></div>
+        </div></div>
         <p class="bottom">Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP备13005880号</p>
-    </div>
+
 </footer>
 </body>
 </html>
