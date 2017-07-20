@@ -359,6 +359,7 @@ footer{
     width: 100%;
     text-align: center;
     color: white;
+    margin: 0;
 }
 .f2h{
     display: flex;
@@ -380,4 +381,14 @@ footer{
 .f3{
     margin-right: 4rem;
     margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+    color: white;
 }
