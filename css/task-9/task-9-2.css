@@ -1,0 +1,348 @@
+html{font-size:62.5%;}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.4em;
+    background-color: #fafafa;
+}
+.share{
+    background-color: white;
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.call{
+    color: #29b078;
+    font-size: 1rem;
+    margin: 0;
+    float: left;
+    /*padding: 0;*/
+}
+.a{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+    float: right;
+}
+.b{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: -20px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+    float: right;
+}
+.c{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: -40px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+    float: right;
+}
+header{
+    /*width: 100%;*/
+    background-color: #29b078;
+    margin: 0;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+}
+.navbar-default{
+    background-color: #29b078;
+    border: hidden;
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    margin: 0;
+}
+.navbar-nav{
+    float: right;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1d7450;
+}
+.navbar-default .navbar-toggle {
+    border: hidden;
+}
+.navbar-collapse{
+    /*padding-right: 50%;*/
+    /*text-align: center;*/
+
+}
+.pa{
+    text-decoration: none;
+    outline: none;
+    color: white;!important;
+    /*margin: 0;*/
+}
+.top{
+    /*width: 100%;*/
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+}
+.container{
+    width: 100%;
+}
+/*.choose{*/
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+
+/*}*/
+.pick{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-bottom: solid 2px #29b078;
+    /*float: right;*/
+}
+.pick:hover{
+    border-bottom: solid 2px white;
+}
+.pk{
+    margin-right: -3.5rem;
+}
+.tree{
+    /*width: 120px;*/
+    float: left;
+    margin-top: 1rem;
+}
+.jpeg{
+   width: 100%;
+}
+.jpeg img{
+    width: 100%;
+
+}
+main{
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+}
+.navo{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    width: 100%;
+}
+.navbar-header>img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: -1rem;
+
+}
+.teamwork{
+    color: #29b078;
+    margin: 0;
+}
+.first{
+    margin: 0 0 0 1rem;
+}
+.glyphicon-menu-right{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2px;
+}
+.left{
+    /*width: 20%;*/
+    /*float: left;*/
+    /*min-width: 100px;*/
+    background-color: white;
+    border: solid 1px #dddddd;
+    /*max-width: 240px;*/
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 3rem;
+}
+.tw{
+    width: 100%;
+    border-bottom: solid 1px #dddddd;
+    margin-bottom: 1rem;
+    /*margin-right: 1rem;*/
+}
+.word1{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.one{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.point{
+    background-color: white;
+    border: solid 1px #ff7425;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    /*margin-left: 35%;*/
+}
+.species{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+    padding-left: 30%;
+}
+.word2{
+    margin-bottom: 0;
+    margin-left: 5px;
+    color: #29b078;
+}
+.one:hover .point{
+    background-color: #f9a372;
+}
+.one:hover .word2{
+    color: #ff7425;
+}
+.right{
+    /*overflow: hidden;*/
+    background-color: white;
+    border: solid 1px #dddddd;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+}
+.photo{
+    width: 40rem;
+}
+.intro{
+    display: flex;
+    border-bottom: solid 1px #dddddd;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.word3{
+    margin: auto;
+    color: #999999;
+}
+.word4{
+    color: #999999;
+    text-indent: 2rem;
+    margin: 2rem 3rem 2rem 3rem;
+}
+.text{
+    margin-bottom: 10rem;
+}
+footer{
+    background-color: #29b078;
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    margin-top: 4rem;
+}
+.word9{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.word10{
+    color: white;
+    font-size: 1rem;
+    margin-top: 3.5rem;
+    border-bottom: solid 1.5px #29b078;
+
+}
+.word10:hover{
+    border-bottom: solid 1.5px white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.f1h{
+    display: flex;
+}
+.bor{
+    border-right: solid;
+    border-left: solid;
+    border-width: thin;
+    border-left-color: white;
+    border-right-color: white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.f2h{
+    margin: 0 auto;
+}
+.word13{
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-bottom: solid 1.5px #29b078;
+}
+.word13:hover{
+    border-bottom: solid 1.5px white;
+}
+.wechat{
+    color: white;
+    text-align: right;
+    padding-right: 4px;
+}
+.chat{
+    text-align: right;
+}
+.f3{
+    /*margin-right: 4rem;*/
+    /*margin-top: 2rem;*/
+    margin-right: 0;
+    margin-top: 1rem;
+}
+.f2{
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*margin-left: 5rem;*/
+}
+.fo1{
+    margin: 0 auto;
+}
+.fh{
+    display: flex;
+    /*justify-content: space-around;*/
+    /*width: 20rem;*/
+}
+@media only screen and (max-width: 985px){
+    .species{
+        padding-left: 45%;
+    }
+}
+@media only screen and (max-width: 770px){
+    .navbar-collapse{
+        padding-right: 50%;
+        /*text-align: center;*/
+
+    }
+}
+.nav>li>a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    padding: 0;
+}

@@ -1,0 +1,450 @@
+html{font-size:62.5%;}
+
+body{
+    width: 100%;
+    /*padding: 0;*/
+    /*margin: 0 auto;*/
+    font-size: 1.4em;
+    background-color: #fafafa;
+}
+
+header{
+    width: 100%;
+    background-color: #29b078;
+}
+.navbar-default{
+    background-color: #29b078;
+    border: hidden;
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    margin: 0;
+}
+.navbar-nav{
+    float: right;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1d7450;
+}
+.navbar-default .navbar-toggle {
+    border: hidden;
+}
+.navbar-collapse{
+    /*padding-right: 50%;*/
+    /*text-align: center;*/
+
+}
+.pa{
+    text-decoration: none;
+    outline: none;
+    color: white;!important;
+    /*margin: 0;*/
+}
+.share{
+    background-color: white;
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.call{
+    color: #29b078;
+    font-size: 1rem;
+    margin: 0;
+}
+.a{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.b{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: -20px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.c{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: -40px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.sha{
+    display: flex;
+}
+.choose{
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.pick{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-bottom: solid 2px #29b078;
+}
+.pick:hover{
+    border-bottom: solid 2px white;
+}
+.pk{
+    margin-right: -3.5rem;
+}
+main{
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+}
+.bdy{
+
+    /*display: flex;*/
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.what{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*max-width: 75%;*/
+}
+.what1{
+    /*width: 27%;*/
+}
+.what2{
+    /*width: 24%;*/
+}
+.what3{
+    /*padding-right: 5%;*/
+    /*width: 30%;*/
+    border-right-color: #dddddd;
+    border-right-style: dashed;
+    border-width: thin;
+}
+.w1{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: 3px -21px;
+    width: 40px;
+    height: 40px;
+    background-size: 128px 128px;
+    margin: 0 auto;
+}
+.w2{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: 3px -57px;
+    width: 40px;
+    height: 40px;
+    background-size: 128px 128px;
+    margin: 0 auto;
+}
+.w3{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: 3px -92px;
+    width: 40px;
+    height: 40px;
+    background-size: 128px 128px;
+    margin: 0 auto;
+}
+.word1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.word2{
+    color: #999999;
+    font-size: 1rem;
+}
+.n1{
+    color: #26a26f;
+}
+.glyphicon-user{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.number{
+    margin: 0 auto;
+    text-align: center;
+}
+.how{
+    /*padding-right: 8.33%;*/
+    /*padding-left: 8.33%;*/
+    /*margin-top: 6rem;*/
+    margin-bottom: 6rem;
+}
+.word4{
+    width: 100%;
+    margin-left: 0.5%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.how1{
+    display: flex;
+    /*align-content: center;*/
+    justify-content: space-between;
+    align-items: center;
+}
+.how2 {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*margin-top: 2rem;*/
+}
+.brn{
+    color: #29b078;
+    background-color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 1.3rem;
+    min-width: 4rem;
+}
+.tri{
+    background-image: url("../task-8/8-1.png");
+    background-repeat: no-repeat;
+    background-position: -65px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+    min-width: 20px;
+}
+.word5{
+    /*max-width: 15%;*/
+    color: #9f9f9f;
+    /*width: 15%;*/
+    margin-left: 5px;
+}
+.show{
+
+    /*padding-right: 8.33%;*/
+    /*padding-left: 8.33%;*/
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    /*width: 100%;*/
+    position: relative;
+}
+.sh{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    padding-bottom: 3rem;
+}
+.photo1{
+    background-color: white;
+}
+.photo2{
+    background-color: white;
+    /*margin-right: 1%;*/
+    /*margin-left: 1%;*/
+}
+.point{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5%;
+
+}
+.pt{
+    display: flex;
+}
+.pt2{
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    border-radius: 4.5px;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+.pt1{
+    width: 9px;
+    height: 9px;
+    background-color: #29b078;
+    border-radius: 4.5px;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+.pho1{
+    width: 100%;
+    text-align: center;
+    margin:10px auto
+}
+.pho1 img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+.word7{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.word8{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #b3b4b4;
+}
+.together{
+    /*padding-right: 12%;*/
+    /*padding-left: 12%;*/
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.toge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: center;*/
+    /*width: 100%;*/
+    background-color: white;
+}
+.t1{
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 4px;
+    /*text-align: center;*/
+    height: 120px;
+    width: 200px;
+    /*width: 20%;*/
+    /*padding: 3rem 1rem 3rem 1rem;*/
+    /*margin-right: 4px;*/
+    /*margin: 4px;*/
+}
+.t1 img{
+    max-width: 100%;
+}
+.t1:hover{
+    box-shadow:0 0 4px rgba(91, 91, 91, 0.64)
+}
+.friend{
+    width: 100%;
+    background-color: white;
+    padding-right: 12%;
+    padding-left: 12%;
+    margin-top: 6rem;
+}
+.frd1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.dian{
+    width: 4px;
+    height: 4px;
+    background-color: #999999;
+    border-radius: 50%;
+    border: solid;
+    /*border-width: thin;*/
+    border-color: #999999;
+    min-width: 4px;
+    min-height: 4px;
+}
+.word11 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-left: 0.5%;
+
+}
+.word12{
+    color: #999999;
+    margin: 0;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+footer{
+    background-color: #29b078;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+.word9{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.word10{
+    color: white;
+    font-size: 1rem;
+    margin-top: 3.5rem;
+    border-bottom: solid 1.5px #29b078;
+
+}
+.word10:hover{
+    border-bottom: solid 1.5px white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.f1h{
+    display: flex;
+}
+.bor{
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.f2h{
+    display: flex;
+}
+.word13{
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-bottom: solid 1.5px #29b078;
+}
+.word13:hover{
+    border-bottom: solid 1.5px white;
+}
+.wechat{
+    color: white;
+    text-align:right;
+}
+.f3{
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.chat{
+    text-align: right;
+}
+.nav>li>a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+@media only screen and (max-width: 770px){
+    .navbar-collapse{
+        padding-right: 50%;
+        /*text-align: center;*/
+
+    }
+}
