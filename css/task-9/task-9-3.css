@@ -436,7 +436,7 @@ a:hover{
     outline: none;
     color: white;
 }
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 764px){
     .navbar-collapse{
         padding-right: 50%;
         /*text-align: center;*/
