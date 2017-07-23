@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e3ef4e-7146-46a9-b1ce-dd660170b53f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-9/task-9-3.css" afterPath="$PROJECT_DIR$/css/task-9/task-9-3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-9/task-9-1.css" afterPath="$PROJECT_DIR$/css/task-9/task-9-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-9/task-9-1.html" afterPath="$PROJECT_DIR$/css/task-9/task-9-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-9/task-9-2.html" afterPath="$PROJECT_DIR$/css/task-9/task-9-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-9/task-9-3.html" afterPath="$PROJECT_DIR$/css/task-9/task-9-3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,14 +22,14 @@
     <favorites_list name="zhazha" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5651376">
+    <splitter split-orientation="horizontal" split-proportion="0.5348624">
       <split-first>
         <leaf>
           <file leaf-file-name="task-9-2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-521">
-                  <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+                <state relative-caret-position="352">
+                  <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -50,11 +52,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task-9-1.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="task-9-1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+                <state relative-caret-position="230">
+                  <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                   <folding>
                     <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -70,11 +72,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task-9-3.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task-9-3.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+                <state relative-caret-position="294">
+                  <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -164,8 +166,8 @@
           <file leaf-file-name="task-9-1.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="542">
-                  <caret line="449" column="1" lean-forward="true" selection-start-line="443" selection-start-column="0" selection-end-line="449" selection-end-column="1" />
+                <state relative-caret-position="295">
+                  <caret line="370" column="1" lean-forward="false" selection-start-line="370" selection-start-column="1" selection-end-line="370" selection-end-column="1" />
                   <folding>
                     <element signature="e#920#1106#0" expanded="false" />
                     <element signature="e#1109#1299#0" expanded="false" />
@@ -175,20 +177,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task-8-1.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/task-8/task-8-1.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="393" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="task-9-2.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
+                <state relative-caret-position="2188">
                   <caret line="335" column="38" lean-forward="false" selection-start-line="335" selection-start-column="38" selection-end-line="335" selection-end-column="38" />
                   <folding />
                 </state>
@@ -198,7 +190,7 @@
           <file leaf-file-name="task-9-3.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/task-9/task-9-3.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="366">
+                <state relative-caret-position="6985">
                   <caret line="330" column="19" lean-forward="false" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
                   <folding />
                 </state>
@@ -254,11 +246,11 @@
         <option value="$PROJECT_DIR$/css/task-8/task-8-3.css" />
         <option value="$PROJECT_DIR$/css/task-8/task-8-1.css" />
         <option value="$PROJECT_DIR$/css/task-8/task-8-3.html" />
+        <option value="$PROJECT_DIR$/css/task-9/task-9-2.css" />
+        <option value="$PROJECT_DIR$/css/task-9/task-9-3.css" />
+        <option value="$PROJECT_DIR$/css/task-9/task-9-1.css" />
         <option value="$PROJECT_DIR$/css/task-9/task-9-1.html" />
         <option value="$PROJECT_DIR$/css/task-9/task-9-2.html" />
-        <option value="$PROJECT_DIR$/css/task-9/task-9-2.css" />
-        <option value="$PROJECT_DIR$/css/task-9/task-9-1.css" />
-        <option value="$PROJECT_DIR$/css/task-9/task-9-3.css" />
         <option value="$PROJECT_DIR$/css/task-9/task-9-3.html" />
       </list>
     </option>
@@ -495,12 +487,12 @@
       <workItem from="1499998969937" duration="57540000" />
       <workItem from="1500212100036" duration="30021000" />
       <workItem from="1500344492265" duration="63378000" />
-      <workItem from="1500623980784" duration="33867000" />
+      <workItem from="1500623980784" duration="35581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199958000" />
+    <option name="totallyTimeSpent" value="201672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,16 +812,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task-8/task-8-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="393" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="1" />
+        <state relative-caret-position="635">
+          <caret line="393" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="393" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="370" column="1" lean-forward="false" selection-start-line="370" selection-start-column="1" selection-end-line="370" selection-end-column="1" />
+          <folding>
+            <element signature="e#920#1106#0" expanded="false" />
+            <element signature="e#1109#1299#0" expanded="false" />
+            <element signature="e#1302#1492#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2188">
+          <caret line="335" column="38" lean-forward="false" selection-start-line="335" selection-start-column="38" selection-end-line="335" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6985">
+          <caret line="330" column="19" lean-forward="false" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task-9/task-9-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="352">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -851,56 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="335" column="38" lean-forward="false" selection-start-line="335" selection-start-column="38" selection-end-line="335" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="449" column="1" lean-forward="true" selection-start-line="443" selection-start-column="0" selection-end-line="449" selection-end-column="1" />
-          <folding>
-            <element signature="e#920#1106#0" expanded="false" />
-            <element signature="e#1109#1299#0" expanded="false" />
-            <element signature="e#1302#1492#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="330" column="19" lean-forward="false" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/task-9/task-9-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        <state relative-caret-position="294">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding>
             <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -978,6 +952,24 @@
             <element signature="n#div#3;n#div#0;n#div#0;n#div#9;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#1;n#div#3;n#div#0;n#div#0;n#div#9;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-9/task-9-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

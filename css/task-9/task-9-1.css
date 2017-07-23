@@ -366,8 +366,8 @@ main{
 }
 footer{
     background-color: #29b078;
-    padding-right: 12%;
-    padding-left: 12%;
+    /*padding-right: 12%;*/
+    /*padding-left: 12%;*/
 }
 .word9{
     color: white;
