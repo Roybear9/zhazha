@@ -143,7 +143,7 @@ main{
 }
 .navbar-header>img{
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
     margin-left: -1rem;
 }
 .teamwork{
