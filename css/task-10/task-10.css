@@ -208,10 +208,10 @@ label input[type="radio"]:checked+.bt{
     border: solid 1px #b3b4b4;
     border-radius: 0;
     margin-right: 1.5rem;
-    padding: 0.6rem 3rem 0.7rem 1rem;
+    padding: 0.6rem 4rem 0.7rem 1rem;
     background-image: url("10-6.png");
     background-repeat: no-repeat;
-    background-position: 6.1rem;
+    background-position: 7.1rem;
     outline: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -224,10 +224,10 @@ label input[type="radio"]:checked+.bt{
     border: solid 1px #b3b4b4;
     border-radius: 0;
     margin-right: 1.5rem;
-    padding: 0.6rem 3rem 0.7rem 1rem;
+    padding: 0.6rem 4rem 0.7rem 1rem;
     background-image: url("10-6.png");
     background-repeat: no-repeat;
-    background-position: 6.1rem;
+    background-position: 7.1rem;
     outline: none;
     -moz-appearance: none;
     -webkit-appearance: none;
