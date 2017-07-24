@@ -183,9 +183,20 @@ label{
     top: 2.5px;
     left: 3rem;
 }
-label:hover span{
+/*.a input[type="radio"]{*/
+    /*display:none;*/
+/*}*/
+/*.a input[type="radio"] + label{*/
+    /*padding:0.2em 1em;*/
+    /*border:1px solid #CCCCCC;*/
+    /*border-radius:0.5em;*/
+    /*color:#999;*/
+/*}*/
+
+label input[type="radio"]:checked+.bt{
     background-image: url("10-5.png");
 }
+
 .selbox{
     overflow: auto;
 }
