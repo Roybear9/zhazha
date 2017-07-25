@@ -1,0 +1,76 @@
+$size: 1.4rem 1.6rem 5rem;
+$color: #eff0f4 #5fc0cd #8bcdd7;
+@mixin photo {
+  width: 100%;
+  border: 0;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-position: 2rem;
+  padding: 0;
+  outline: none;
+  font-size: 1.4rem;
+  text-indent: 12rem;
+}
+$white: #ffffff;
+$width: 100%;
+$side: right left center;
+
+
+
+html{
+  font-size: 62.5%;
+}
+body{
+  width: $width;
+  padding: 0;
+  margin: 0;
+  font-size: nth($size,1);
+  background: nth($color,1);
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: nth($color,2);
+  align-items: nth($side,3);
+}
+.left{
+  color: $white;
+  padding: 0 0 0 1rem;
+}
+.right{
+  color: $white;
+  padding: 0 1rem 0 0;
+}
+.zhong{
+  color: $white;
+  font-size: nth($size,2);
+}
+
+.iphone{
+  @include photo;
+  background-color: $white;
+  background-image: url("11-1.png");
+  margin: 1rem 0 0.5rem 0;
+}
+.psw{
+  @include photo;
+  background-color: $white;
+  background-image: url("11-2.png");
+  margin: 0.5rem 0 1rem 0;
+}
+button{
+  background-color: nth($color,2);
+  width: $width;
+  height: nth($size,3);
+  outline: none;
+  border: 0;
+  font-size: nth($size,2);
+  color: $white;
+}
+a{
+  color: nth($color,3);
+  float: nth($side,1);
+  padding: 1rem 1rem 0 0;
+  text-decoration: underline;
+}
