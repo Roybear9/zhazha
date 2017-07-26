@@ -1,0 +1,136 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 425px;
+  font-size: 1.4rem;
+  background: white; }
+
+header {
+  position: fixed;
+  background-color: #5fc0cd;
+  width: 100%;
+  max-width: 425px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+.back {
+  padding-left: 1rem;
+  position: absolute; }
+
+.self {
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem 0 1rem 0; }
+
+.top {
+  background-image: url("../task-5/5-2.png");
+  padding: 5rem 0 3rem 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex; }
+
+.photo {
+  padding-left: 2rem; }
+
+.name {
+  color: white;
+  font-size: 2rem;
+  padding-left: 2rem; }
+
+.age {
+  color: white;
+  padding-left: 2.5rem;
+  font-size: 1.4rem; }
+
+.one {
+  display: flex;
+  align-items: center; }
+
+.position {
+  padding-left: 2rem; }
+
+.city {
+  padding-left: 1rem;
+  color: white; }
+
+.two {
+  display: flex;
+  align-items: center; }
+
+.jineng {
+  border-left: solid 3px #5fc0cd;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  font-size: 1.8rem; }
+
+.around {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: 0 2rem 0 2rem;
+  border-top: solid 1px gainsboro;
+  border-bottom: solid 1px gainsboro; }
+
+.star {
+  padding: 0 1rem 0 2rem; }
+
+.word {
+  color: gainsboro;
+  border-right: solid 1px gainsboro;
+  padding: 0 2rem 0 2rem;
+  margin-right: 2rem;
+  white-space: nowrap; }
+
+.a {
+  border-bottom: solid 1px gainsboro;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin: 0 2rem 0 2rem; }
+
+.price {
+  color: red; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  max-width: 425px;
+  display: flex;
+  align-items: center; }
+
+.b {
+  margin: 0 2rem 7rem 2rem;
+  border-bottom: solid 1px gainsboro;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center; }
+
+.e {
+  border-radius: 10px;
+  border: solid 3px #5fc0cd;
+  text-align: center;
+  width: 50%;
+  font-size: 1.8rem;
+  color: #5fc0cd;
+  background-color: white; }
+
+.f {
+  color: white;
+  background-color: #5fc0cd;
+  border-radius: 10px;
+  border: solid 3px #5fc0cd;
+  text-align: center;
+  width: 50%;
+  font-size: 1.8rem; }
+
+/*# sourceMappingURL=task-12-1.css.map */

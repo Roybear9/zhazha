@@ -1,0 +1,214 @@
+@mixin bo{
+  margin: 2rem 0 0 0;
+  outline: none;
+  border: 0;
+  background-color: inherit;
+}
+@mixin flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin p{
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+@mixin photo1{
+  background-image: url("../task-6/6-1.png" );
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 40px;
+  height: 50px;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+}
+@mixin photo2{
+  background-image: url("../task-6/6-1.png" );
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 27px;
+  height: 20px;
+}
+@mixin top{
+  font-size: 1.8rem;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  padding: 0.9rem 2rem 0.9rem 2rem;
+}
+$color: white #5fc0cd #b3b4b4 #55a8b3 red;
+
+
+
+html{font-size:62.5%;}
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.4em;
+  max-width: 425px;
+}
+header{
+  position: fixed;
+  background-color: nth($color,2);
+  width: 100%;
+  height: 5rem;
+  z-index: 1;
+  max-width: 425px;
+  @include flex;
+}
+.ps{
+  margin: 0.5rem 1rem 0 0;
+  position: absolute;
+  right: 0;
+}
+.position{
+  background-image: url("../task-6/6-1.png" );
+  background-size: 256px 256px;
+  background-repeat: no-repeat;
+  background-position: -12px -10px;
+  width: 28px;
+  height: 26px;
+  border: 0;
+  background-color: inherit;
+}
+.top{
+  @include flex;
+  border-radius: 5px;
+  background-color: nth($color,4);
+  margin: 0.5rem 0 0.5rem 0;
+}
+.master{
+  color: white;
+  background-color: nth($color,4);
+  @include top;
+}
+.nurse{
+@include top;
+  color: nth($color,2);
+  background-color:nth($color,1);
+  border-color: nth($color,1);
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8fafb;
+  border-top: solid 1px #e2eaec;
+  max-width: 425px;
+}
+.lt{
+  @include photo1;
+  background-position: -83px -10px;
+
+}
+.bo1{
+  @include bo;
+  color: nth($color,2);
+}
+.bo2{
+  @include bo;
+  color: nth($color,3);
+}
+.rt{
+  @include photo1;
+  background-position: -83px -114px;
+}
+.cont{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: nth($color,2);
+}
+img{
+  margin-top: 4px;
+}
+main{
+  margin-bottom: 65px;
+}
+.dropdown{
+  @include flex;
+  width: 100%;
+  padding-top: 5.5rem;
+  background-color: nth($color,1);
+  padding-bottom: 0.5rem;
+  overflow: auto;
+}
+.drop{
+  background-color: nth($color,1);
+  color: nth($color,3);
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+.point{
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid nth($color,3);
+  float: right;
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+}
+.a{
+  width: 33.3%;
+}
+.b{
+  width: 33.4%;
+  border-right:solid 1px #e1e5e7;
+  border-left:solid 1px #e1e5e7;
+}
+.c{
+  width: 33.3%;
+}
+.list{
+  background-color: nth($color,1);
+  border-top: solid 1px #e1e5e7;
+  padding: 1rem 0 0 0;
+}
+.time{
+  @include photo2;
+  background-position: -12px -58px;
+  float: left;
+}
+.tm{
+  color: nth($color,3);
+}
+.day{
+  float: left;
+  margin-left: 27px;
+}
+.price{
+  color: nth($color,5);
+}
+.go{
+  @include photo2;
+  background-position: -12px -148px;
+  margin-top: 1.2rem;
+}
+.ipt{
+  display: flex;
+  justify-content: space-between;
+}
+.pos{
+  @include photo2;
+  background-position: -12px -105px;
+  float: left;
+}
+.bug{
+  display: flex;
+  @include p;
+}
+p{
+  @include p;
+}
