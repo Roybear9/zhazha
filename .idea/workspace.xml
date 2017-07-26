@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e3ef4e-7146-46a9-b1ce-dd660170b53f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task-12/task-12-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task-12/task-12-2.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-12/task-12-1.css" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-12/task-12-1.css.map" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-12/task-12-1.html" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-12/task-12-1.scss" afterPath="$PROJECT_DIR$/css/task-12/task-12-1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task-12/task-12-2.scss" afterPath="$PROJECT_DIR$/css/task-12/task-12-2.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +27,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="task-12-1.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="task-12-1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+                <state relative-caret-position="525">
+                  <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="67" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task-12-2.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task-12-2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-12/task-12-2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
+                <state relative-caret-position="932">
                   <caret line="135" column="10" lean-forward="true" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
                   <folding />
                 </state>
@@ -50,11 +51,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="task-12-2.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task-12-2.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task-12/task-12-2.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3178">
-                  <caret line="205" column="14" lean-forward="true" selection-start-line="205" selection-start-column="14" selection-end-line="205" selection-end-column="14" />
+                <state relative-caret-position="569">
+                  <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task-12-1.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="481">
+                  <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -121,10 +132,10 @@
         <option value="$PROJECT_DIR$/css/task-11/task-11.css" />
         <option value="$PROJECT_DIR$/css/task-11/task-111.scss" />
         <option value="$PROJECT_DIR$/css/task-11/task-11.scss" />
-        <option value="$PROJECT_DIR$/css/task-12/task-12-1.html" />
-        <option value="$PROJECT_DIR$/css/task-12/task-12-1.scss" />
         <option value="$PROJECT_DIR$/css/task-12/task-12-2.html" />
+        <option value="$PROJECT_DIR$/css/task-12/task-12-1.html" />
         <option value="$PROJECT_DIR$/css/task-12/task-12-2.scss" />
+        <option value="$PROJECT_DIR$/css/task-12/task-12-1.scss" />
       </list>
     </option>
   </component>
@@ -420,12 +431,12 @@
       <workItem from="1500344492265" duration="63378000" />
       <workItem from="1500623980784" duration="66542000" />
       <workItem from="1500960955188" duration="330000" />
-      <workItem from="1500961312011" duration="17087000" />
+      <workItem from="1500961312011" duration="17570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250050000" />
+    <option name="totallyTimeSpent" value="250533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,26 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/task-5/task-5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="113" column="19" lean-forward="false" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -805,16 +800,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task-12/task-12-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="932">
           <caret line="135" column="10" lean-forward="true" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/task-12/task-12-2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3178">
-          <caret line="205" column="14" lean-forward="true" selection-start-line="205" selection-start-column="14" selection-end-line="205" selection-end-column="14" />
+        <state relative-caret-position="569">
+          <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task-12/task-12-1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>

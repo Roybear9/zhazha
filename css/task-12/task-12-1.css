@@ -133,4 +133,9 @@ footer {
   width: 50%;
   font-size: 1.8rem; }
 
+a {
+  text-decoration: none;
+  color: #5fc0cd;
+  outline: none; }
+
 /*# sourceMappingURL=task-12-1.css.map */

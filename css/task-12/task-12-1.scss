@@ -130,3 +130,8 @@ footer{
   background-color: nth($coler,3);
   @include button;
 }
+a{
+  text-decoration: none;
+  color: nth($coler,3);
+  outline: none;
+}
