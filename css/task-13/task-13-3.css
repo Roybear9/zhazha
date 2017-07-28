@@ -1,0 +1,124 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.4em;
+  max-width: 425px; }
+
+header {
+  background-color: #29bde0;
+  width: 100%;
+  max-width: 425px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+  border-bottom: solid 1px #74d4eb; }
+
+.lt {
+  background-image: url("../task-7/7-5.png");
+  background-size: 30px 27px;
+  background-repeat: no-repeat;
+  border: 0;
+  background-color: inherit;
+  width: 30px;
+  height: 27px;
+  margin-left: 1rem; }
+
+.rt {
+  background-image: url("../task-7/7-6.png");
+  background-size: 30px 31.5px;
+  background-repeat: no-repeat;
+  border: 0;
+  background-color: inherit;
+  width: 30px;
+  height: 31.5px;
+  margin-right: 1rem; }
+
+.gm {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 300; }
+
+main {
+  background-color: #29bde0; }
+
+.chump {
+  text-align: center;
+  padding-top: 1rem; }
+
+.one {
+  color: #ffc865;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.two {
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.7rem;
+  white-space: pre;
+  font-weight: 300; }
+
+.day {
+  background-color: white;
+  border-top: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd; }
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 15%;
+  align-items: center; }
+
+.d {
+  font-size: 2rem;
+  margin: 0; }
+
+.h {
+  font-size: 1rem;
+  color: #cbcbcb; }
+
+.m {
+  padding-left: 10%;
+  padding-right: 15%;
+  color: #acacac;
+  font-size: 1.6rem;
+  margin: 0 0 1rem 0; }
+
+footer {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(41, 189, 224, 0.4);
+  bottom: 0;
+  width: 100%;
+  max-width: 425px;
+  display: flex;
+  justify-content: space-around; }
+
+.re {
+  background-color: #f66f6f;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 2rem; }
+
+.share {
+  background-color: #fbb435;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-size: 2rem; }
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white; }
+
+/*# sourceMappingURL=task-13-3.css.map */

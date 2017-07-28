@@ -1,0 +1,183 @@
+@mixin photo1{
+  background-image: url("../task-7/7-3.png" );
+  background-size: 154px 154px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 34px;
+  border: 0;
+  background-color: inherit;
+}
+@mixin photo2{
+  background-image: url("../task-7/7-3.png" );
+  background-size: 125px 125px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background-color: inherit;
+}
+@mixin box{
+  border-right: solid;
+  border-left: solid;
+  border-color: white;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+}
+@mixin flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 425px;
+}
+
+html{font-size:62.5%;}
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.4em;
+  max-width: 425px;
+}
+header{
+  @include flex;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: #29bde0;
+}
+.le{
+  @include photo1;
+  background-position: -26px 5px;
+}
+.rt{
+  @include photo1;
+  background-position: -26px -30px;
+}
+.ct{
+  margin: 0;
+  color: white;
+  font-size: 1.8rem;
+}
+.say{
+  background-color: #b9e9f5;
+  @include flex;
+  position: relative;
+}
+.point{
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-left: 16px solid white;
+  border-bottom: 9px solid transparent;
+  margin-left: 3px;
+}
+.go{
+  background-color: #fbb435;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.tri{
+  width: 0;
+  height: 0;
+  border-top: 16px solid #b9e9f5;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: absolute;
+  left: 2rem;
+  top: 3rem;
+}
+.speak{
+  margin: 1rem 0 1rem 2rem;
+  font-size: 1.5rem;
+}
+.pick{
+  padding: 1rem 0 1rem 2rem;
+  color: #b9e9f5;
+  background-color: #29bde0;
+  margin: 0;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 6rem;
+  width: 100%;
+  max-width: 425px;
+  background-color: #29bde0;
+}
+.person{
+  width: 23%;
+  margin: 1rem 1rem 2rem 1rem;
+}
+.per{
+  background-color: #f5c97b;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-top: solid;
+  @include box;
+}
+.num{
+  color: white;
+  background-color: #83b09a;
+  font-size: 1rem;
+  border-bottom: solid;
+  @include box;
+}
+footer{
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  background-color: #29bde0;
+  width: 100%;
+  padding-top: 1rem;
+  max-width: 425px;
+}
+.sel{
+  text-align: center;
+  background-color: #fbb435;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 4rem 1rem 4rem;
+  padding: 1rem 0 1rem 0;
+}
+.person:hover .choose{
+  visibility: visible;
+}
+.choose{
+  bottom: -29px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  visibility: hidden;
+}
+.one{
+  @include photo2;
+  background-position: 0 3px;
+}
+.two{
+  @include photo2;
+  background-position: 2px -16px;
+}
+.three{
+  @include photo2;
+  background-position: 4px -35px;
+}
+.four{
+ @include photo2;
+  background-position: 5px -54px;
+}
+audio{
+  display: none;
+}
+a{
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
