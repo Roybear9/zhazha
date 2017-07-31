@@ -1,0 +1,354 @@
+html{font-size:62.5%;}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.4em;
+    background-color: #fafafa;
+}
+.share{
+    background-color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.call{
+    color: #29b078;
+    font-size: 1rem;
+    margin: 0;
+}
+.a{
+    background-image: url("15-1.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.b{
+    background-image: url("15-1.png");
+    background-repeat: no-repeat;
+    background-position: -20px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.c{
+    background-image: url("15-1.png");
+    background-repeat: no-repeat;
+    background-position: -40px 2px;
+    width: 20px;
+    height: 20px;
+    background-size: 128px 128px;
+}
+.sha{
+    display: flex;
+}
+header{
+    width: 100%;
+    background-color: #29b078;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.choose{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.pick{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-bottom: solid 2px #29b078;
+}
+.pick:hover{
+    border-bottom: solid 2px white;
+}
+.pk{
+    margin-right: -1.5rem;
+}
+.tree{
+    width: 120px;
+}
+main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.nav{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 1px #c9c9c9;
+
+
+}
+.teamwork{
+    color: #29b078;
+    margin: 0;
+}
+.first{
+    margin: 0;
+}
+.glyphicon-menu-right{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2px;
+}
+.direction{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: solid 1px #dddddd;
+}
+.dirt{
+    color: #c9c9c9;
+}
+.word1{
+    margin-left: 2rem;
+}
+.word1:hover{
+    color: white;
+    background-color: #29b078;
+}
+.word2{
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 1px #c9c9c9;
+    margin-bottom: 0;
+}
+.web0{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person{
+    width: 28rem;
+    background-color: white;
+    border: solid 1px #c9c9c9;
+    margin-top: 3rem;
+    position: relative;
+    height: 35rem;
+}
+.one{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #c9c9c9;
+    padding: 1rem 1rem 0.5rem 1rem;
+
+}
+.photo{
+    width: 40rem;
+}
+.text{
+    padding-left: 0.5rem;
+}
+.word3{
+    overflow: hidden;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    word-break: break-all;
+    text-align: justify;
+}
+.word4{
+    font-size: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.glyphicon-star{
+    color: #ff5c00;
+    padding-left: 0.5rem;
+}
+.word5{
+    color: #b3b4b4;
+    width: 50%;
+    padding: 0.5rem 0 0.5rem 1rem;
+    margin: 0;
+    border-bottom: solid 1px #c9c9c9;
+    font-size: 1rem;
+}
+.t1{
+    display: flex;
+}
+.t2{
+    display: flex;
+}
+.word6{
+    color: red;
+    padding-left: 0.5rem;
+}
+.word7{
+    color: black;
+    padding-right: 1rem;
+}
+.left{
+    border-left: solid 1px #c9c9c9;
+}
+.three{
+    height: 9rem;
+    display: flex;
+}
+.word8{
+    color: #b3b4b4;
+    width: 19.5rem;
+    height: 100%;
+    margin: 0 ;
+    text-align: center;
+    padding-top: 4rem;
+    border-bottom: solid 1px #c9c9c9;
+    border-right: solid 1px #c9c9c9;
+
+}
+.th0{
+    width: 100%;
+}
+.hang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 3rem;
+    border-bottom: solid 1px #c9c9c9;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.hang1{
+    margin: 0;
+}
+.four{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.7rem;
+    margin: 0;
+    font-weight: 500;
+    border-bottom: solid 1px #c9c9c9;
+}
+.f1{
+    color: red;
+}
+.five{
+    padding: 1rem 1rem 1rem 1rem;
+    color: #b3b4b4;
+    margin: 0;
+    font-size: 1rem;
+}
+.hd{
+    visibility: hidden;
+}
+.ios{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.ios0{
+    color: white;
+    text-align: justify;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.misk{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 28rem;
+    height: 35rem;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+.person:hover .misk{
+    display: block;
+}
+
+
+footer{
+    background-color: #29b078;
+    padding-right: 12%;
+    padding-left: 12%;
+    margin-top: 4rem;
+}
+.word9{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.word10{
+    color: white;
+    font-size: 1rem;
+    margin-top: 3.5rem;
+    border-bottom: solid 1.5px #29b078;
+
+}
+.word10:hover{
+    border-bottom: solid 1.5px white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.f1h{
+    display: flex;
+}
+.bor{
+    border-right: solid;
+    border-left: solid;
+    border-width: thin;
+    border-left-color: white;
+    border-right-color: white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.f2h{
+    display: flex;
+}
+.word13{
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-bottom: solid 1.5px #29b078;
+}
+.word13:hover{
+    border-bottom: solid 1.5px white;
+}
+.wechat{
+    color: white;
+    text-align: center;
+}
+.f3{
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
