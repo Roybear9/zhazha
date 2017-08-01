@@ -1,0 +1,358 @@
+@mixin photo1{
+  background-image: url("15-1.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 128px 128px;
+}
+@mixin pad{
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+}
+@mixin photo2{
+  background-image: url("15-1.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 128px 128px;
+  margin: 0 auto;
+}
+@mixin pt{
+  border-radius: 4.5px;
+  margin-right: 5px;
+  margin-bottom: 1rem;
+  width: 9px;
+  height: 9px;
+}
+
+
+.share{
+  background-color: white;
+  @include pad;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.call{
+  color: #29b078;
+  font-size: 1rem;
+  margin: 0;
+}
+.a{
+  @include photo1;
+  background-position: 0 2px;
+
+}
+.b{
+ @include photo1;
+  background-position: -20px 2px;
+}
+.c{
+  @include photo1;
+  background-position: -40px 2px;
+}
+.sha{
+  display: flex;
+}
+.bdy{
+  @include pad;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.what{
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+}
+.what1{
+  width: 27%;
+}
+.what2{
+  width: 24%;
+}
+.what3{
+  padding-right: 5%;
+  width: 30%;
+  border-right: dashed 1px #dddddd;
+}
+.w1 {
+  @include photo2;
+  background-position: 3px -21px;
+}
+.w2{
+  @include photo2;
+  background-position: 3px -57px;
+}
+.w3{
+  @include photo2;
+  background-position: 3px -92px;
+}
+.word1{
+  text-align: center;
+  margin-top: 1rem;
+}
+.word2{
+  color: #999999;
+  font-size: 1rem;
+}
+.n1{
+  color: #26a26f;
+  display: flex;
+}
+.user{
+  background-image: url("15-16.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 13px;
+  height: 13px;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.number{
+  margin: auto;
+}
+@media screen and (max-width: 792px) {
+  .bdy{
+    flex-wrap: wrap;
+  }
+  .what{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .what1{
+    width: 100%;
+  }
+  .what2{
+    width: 100%;
+  }
+  .what3{
+    width: 100%;
+    padding: 0;
+    border: 0;
+  }
+  .number{
+    width: 100%;
+    text-align: center;
+  }
+  .n1{
+    justify-content: center;
+  }
+}
+
+
+
+.how{
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.word4{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.how1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.brn{
+  color: #29b078;
+  background-color: #ffffff;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  min-width: 4rem;
+  margin-right: 1rem;
+}
+.brn p{
+  margin-top: 1.2rem;
+}
+.tri{
+  @include photo1;
+  background-position: -65px 2px;
+  min-width: 30px;
+}
+.word5{
+  /*max-width: 15%;*/
+  color: #9f9f9f;
+  /*width: 15%;*/
+}
+.o{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+@media screen and (max-width: 792px) {
+  .how1{
+    flex-wrap: wrap;
+  }
+  .how2{
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .o{
+    width: 100%;
+  }
+
+}
+
+
+.show{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 100%;
+  position: relative;
+}
+.sh{
+  @include pad;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.photo1{
+  background-color: white;
+}
+.photo2{
+  background-color: white;
+  margin-right: 5%;
+}
+@media screen and (max-width: 792px) {
+  .sh {
+    flex-wrap: wrap;
+  }
+  .photo1{
+    width: 100%;
+  }
+  .photo2{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.point{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pt{
+  display: flex;
+}
+.pt2{
+  @include pt;
+  background-color: white;
+}
+.pt1{
+  @include pt;
+  background-color: #29b078;
+}
+.pho1{
+  width: 100%;
+  text-align: center;
+  margin:10px auto
+}
+.pho1 img{
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+.word7{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.word8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #b3b4b4;
+}
+.together{
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.toge{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.t1{
+  background-color: white;
+  text-align: center;
+  padding: 3rem 1rem 3rem 1rem;
+  margin-right: 4px;
+}
+.t1 img{
+  max-width: 100%;
+}
+.t1:hover{
+  box-shadow:0 0 4px rgba(91, 91, 91, 0.64)
+}
+
+@media screen and (max-width: 792px) {
+  .t1{
+    width: 100%;
+  }
+}
+
+.friend{
+  width: 100%;
+  background-color: white;
+  margin-top: 6rem;
+}
+.frd1{
+ @include pad;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+}
+.frd2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+@media screen and (max-width: 792px) {
+  .frd2{
+    width: 100%;
+  }
+}
+.dian{
+  width: 4px;
+  height: 4px;
+  background-color: #999999;
+  border-radius: 50%;
+  border: solid 1px #999999;
+  min-width: 4px;
+  min-height: 4px;
+}
+.word11 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.word12{
+  color: #999999;
+  margin: 0;
+  margin-right: 2%;
+  margin-left: 1%;
+}
