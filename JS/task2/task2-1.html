@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="task2-1.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <title>参数设置</title>
+</head>
+<body>
+<header>
+    <div class="back">
+        <img src="Back%20_%20Icon.png" width="20" height="32">
+    </div>
+    <p class="set">参数设置</p>
+    <div class="help">
+        <img src="circled-help.png" width="40" height="40">
+    </div>
+</header>
+<main>
+    <p class="player">玩家配比</p>
+    <div class="play">
+
+    </div>
+
+    <button class="setnum" onclick="add()"><span>点击设置</span> <img src="pencil.png"></button>
+    <form class="putin" onsubmit="return false">
+        <label>
+        <span class="a">请输入玩家数量</span>
+        <input id="change" class="chan" type="text" onblur="chooseNumber()"  max="18" min="4" value="4">
+        <span class="b">玩家数量:4-18人</span>
+        </label>
+        <br/>
+        <div class="row">
+        <button class="small" onclick="minus()">
+            <img class="photo" src="1.png">
+        </button>
+        <label>
+        <input type="range" id="number" class="num" min="4" max="18" value="4" step="1" onchange="changeNumber()">
+        </label>
+        <button class="big" onclick="plus()">
+            <img class="photo" src="3.png">
+        </button></div>
+    </form>
+    <button type="button" class="start" >去发牌</button>
+
+</main>
+
+
+
+
+
+<script src="task2-1.js" type="text/javascript"></script>
+</body>
+</html>
