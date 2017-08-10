@@ -89,6 +89,16 @@ function add() {
     $(".play").eq(0).html(adder);
 
 }
+function skip() {
+    if (killer.length !== 0) {
+        sessionStorage.setItem("playerRole",JSON.stringify(all));
+        sessionStorage.setItem("number",rangeNum.value);
+        window.location.href="../task3/task3-1.html";
+    } else {
+        alert("请设置身份");
+    }
+}
+
 
 
 

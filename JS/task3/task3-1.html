@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="task3-1.css" />
+    <script src="../jquery-3.2.1.js" type="text/javascript"></script>
+    <title>查看身份</title>
+</head>
+<body>
+<header>
+    <div class="back" onclick="window.location.href='../task2/task2-1.html'">
+        <img src="back.png" width="20" height="32">
+    </div>
+    <p class="look">
+        查看身份
+    </p>
+    <div class="end">
+        <img src="end.png" width="30" height="30">
+    </div>
+</header>
+<main>
+    <div class="ma">
+        <div class="background">
+            <div class="round">
+                <p class="playerNumber">
+
+                </p>
+            </div>
+            <div class="master" id="mp">
+                <img src="master.png" width="250" height="250">
+            </div>
+            <div class="person" id="pp">
+                <img src="person.png" width="200" height="200">
+                <p class="name"></p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <button type="button" class="go" id="deal" onclick="aaaa()">
+    查看<span class="nub-a"></span>号身份
+    </button>
+    <button type="button" class="go" id="next" onclick="bbbb()">
+        隐藏并传递给<span class="nub-b"></span>号
+    </button>
+    <button type="button" class="go" id="end" onclick="window.location.href='../task3/task3-2.html'">
+        查看法官台本
+    </button>
+</footer>
+<script src="task3-1.js" type="text/javascript"></script>
+</body>
+</html>
