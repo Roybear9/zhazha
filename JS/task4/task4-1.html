@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="task4-1.css" />
+    <script src="../jquery-3.2.1.js" type="text/javascript"></script>
+    <title>法官日记</title>
+</head>
+<body>
+<header>
+    <div class="back" onclick="window.location.href='../task3/task3-1.html'">
+        <img src="../task3/back.png" width="20" height="32">
+    </div>
+    <p class="look">
+        法官台本
+    </p>
+    <div class="end">
+        <img src="../task3/end.png" width="30" height="30">
+    </div>
+</header>
+<div class="wrap">
+    <div class="wrap-s">
+        <div class="days">
+
+        </div>
+        <div class="wrap-flow">
+            <img src="day.png" alt="" class="day">
+            <img src="night.png" alt="" class="night">
+
+            <div class="wrap-flow-nighthappen" id="killsomebody" onclick="Click1()">
+                杀手请杀人
+            </div>
+
+            <div class="wrap-flow-nighthappen" id="deadsay" onclick="Click2()">
+                亡灵说话
+            </div>
+            <div class="wrap-flow-nighthappen" id="aliveturn" onclick="Click3()">
+                玩家依次发言
+            </div>
+            <div class="wrap-flow-nighthappen" id="vote" onclick="Click4()">
+                投票
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+<button class="endGame" onclick="gameOver()">结束游戏</button>
+    <button class="chickBook" onclick="window.location.href='task4-5.html'">法官日志</button>
+</footer>
+
+<script src="task4-1.js" type="text/javascript"></script>
+
+</body>
+</html>

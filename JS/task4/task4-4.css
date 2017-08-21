@@ -1,0 +1,135 @@
+body {
+  font-size: 62.5%;
+  max-width: 425px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 4rem; }
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  max-width: 425px;
+  background-color: #29bde0; }
+
+.game-over {
+  position: relative;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: .1rem;
+  border-bottom: 1px solid #74d4eb; }
+
+.head-page {
+  position: absolute;
+  top: 50%;
+  margin-top: -1rem;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.first-page {
+  background: url(first-page.png) no-repeat left;
+  background-size: 100%;
+  left: 5%; }
+
+.result-tip {
+  background: url(result-tip.png) no-repeat left;
+  background-size: 100%;
+  right: 5%; }
+
+.main {
+  background-color: #29bde0; }
+
+.win-page {
+  text-align: center; }
+
+.win-page img {
+  width: 16rem;
+  padding: 1rem 0; }
+
+.nb-p {
+  font-size: 1.5rem;
+  color: #ffc865;
+  padding: 0 10%;
+  margin: 0 0 1rem 0; }
+
+.summary {
+  font-size: 1rem;
+  color: white;
+  background-color: #29bde0;
+  letter-spacing: .1rem;
+  padding: 0 10%;
+  margin-top: 1rem; }
+
+.summary p {
+  margin: 0;
+  padding-top: .5rem; }
+
+.day {
+  padding: 0 10%;
+  letter-spacing: .1rem;
+  border-bottom: 1px solid #dddddd;
+  background-color: #fff; }
+
+.day h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+  color: #515151;
+  font-weight: normal; }
+
+.time {
+  display: inline-block;
+  padding-left: 40%;
+  font-size: .8rem;
+  color: #c7c7c7;
+  font-weight: normal; }
+
+.time1 {
+  font-size: 1rem;
+  color: #b3b3b3;
+  margin: 0; }
+
+.content {
+  background-color: #fff;
+  margin-bottom: 3rem; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  max-width: 425px;
+  background-color: #29bde0; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgba(41, 189, 224, 0.5); }
+
+.foot {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  width: 40%;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  outline: none; }
+
+.over {
+  background-color: #f66f6f; }
+
+.share {
+  background-color: #fbb435; }
+
+/*# sourceMappingURL=task4.css.map */
+
+/*# sourceMappingURL=task4-4.css.map */

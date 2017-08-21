@@ -1,62 +1,62 @@
-html {
-  font-size: 62.5%; }
-
-body {
+html{font-size:62.5%;}
+body{
   width: 100%;
   padding: 0;
   margin: 0 auto;
   font-size: 1.4em;
-  max-width: 425px; }
-
-header {
+  max-width: 425px;
+}
+header{
   background-color: #29bde0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 2px #74d4eb; }
-
-.look {
+  border-bottom: solid 2px #74d4eb;
+}
+.look{
   color: white;
   font-size: 2rem;
-  margin-left: 1.5rem; }
+  margin-left: 1.5rem;
 
-.back {
-  margin-left: 1rem; }
-
-.end {
-  margin-right: 1rem; }
-
-.box {
+}
+.back{
+  margin-left: 1rem;
+}
+.end{
+  margin-right: 1rem;
+}
+.box{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 10rem; }
-
-main {
+  padding-bottom: 10rem;
+}
+main{
   background-color: #29bde0;
-  min-height: 45rem;
-  overflow: hidden; }
+  min-height: 30rem;
+  overflow: hidden;
 
-.role {
+}
+.role{
   width: 30%;
   border: solid 3px white;
-  margin: 2rem 2rem 0 2rem; }
-
-.role-player {
+  margin: 2rem 2rem 0 2rem;
+}
+.role-player{
   text-align: center;
   background-color: #f5c97b;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 2rem; }
-
-.role-number {
+  font-size: 2rem;
+}
+.role-number{
   background-color: #83b09a;
   text-align: center;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  font-size: 2rem; }
-
-footer {
+  font-size: 2rem;
+}
+footer{
   background-color: #29bde0;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -64,9 +64,9 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  max-width: 425px; }
-
-.beginGame {
+  max-width: 425px;
+}
+.beginGame{
   background-color: orange;
   margin: 0 5% 0 5%;
   width: 90%;
@@ -75,6 +75,6 @@ footer {
   outline: none;
   text-align: center;
   font-size: 2rem;
-  color: white; }
+  color: white;
 
-/*# sourceMappingURL=task3-2.css.map */
+}

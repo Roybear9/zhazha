@@ -58,14 +58,15 @@ footer{
     color: white;
 }
 .round{
-    position: absolute;
+    position: relative;
     border: solid 2px #ffedc5;
     border-radius: 50%;
     background-color: white;
     width: 4rem;
     height: 4rem;
-    top:-2rem;
-    left: 41%;
+    /*top:-2rem;*/
+    /*left: 41%;*/
+    margin: -2rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,18 +78,33 @@ footer{
 }
 .master{
     justify-content: center;
-    margin-top: 5rem;
+    margin: 3rem 1rem 0 1rem;
+    position: relative;
+
+
+}
+.master img{
+    position: absolute;
+    width: 100%;
+
+}
+.person img{
+    position: absolute;
+    width: 100%;
+
 }
 .person{
     justify-content: center;
-    margin-top: 5rem;
     flex-wrap: wrap;
+    margin: 3rem 3rem 0 3rem;
+    position: relative;
 }
 .name{
     text-align: center;
     width: 100%;
     color: #29bde0;
     font-size: 2rem;
+    margin-top: 22rem;
 }
 #next{
 }
