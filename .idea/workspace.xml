@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e3ef4e-7146-46a9-b1ce-dd660170b53f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-1.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-2.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-3.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-4.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task4/task4-5.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task5/task5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task5/task5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/task5/task5.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-1.css" afterPath="$PROJECT_DIR$/JS/task3/task3-1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-1.html" afterPath="$PROJECT_DIR$/JS/task3/task3-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-2.css" afterPath="$PROJECT_DIR$/JS/task3/task3-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-2.html" afterPath="$PROJECT_DIR$/JS/task3/task3-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-2.js" afterPath="$PROJECT_DIR$/JS/task3/task3-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task3/task3-2.scss" afterPath="$PROJECT_DIR$/JS/task3/task3-2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/task4/task4-5.js" afterPath="$PROJECT_DIR$/JS/task4/task4-5.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,86 +27,41 @@
       <file leaf-file-name="task2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/task2/task2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="73" />
+            <state relative-caret-position="262">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task4-4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.html">
+      <file leaf-file-name="task5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/task5/task5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="93">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task4-4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.js">
+      <file leaf-file-name="task5.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/task5/task5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task4-5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task4-5.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
-                <element signature="e#40#79#0" expanded="false" />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task4-3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-3.js">
+      <file leaf-file-name="task5.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/task5/task5.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1607">
-              <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-              <folding>
-                <element signature="e#40#79#0" expanded="false" />
-                <element signature="e#81#119#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task4-1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+            <state relative-caret-position="396">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task4-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/task4/task4-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-              <folding>
-                <element signature="e#41#79#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,9 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/task-14+15/task-15-1.html" />
-        <option value="$PROJECT_DIR$/../../task14/task14-1.css" />
-        <option value="$PROJECT_DIR$/css/task-1415/task-15-1.css" />
         <option value="$PROJECT_DIR$/css/task-1415/task-15-3.css" />
         <option value="$PROJECT_DIR$/css/task-1415/task-15-2.css" />
         <option value="$PROJECT_DIR$/css/task-1415/task-15-2.html" />
@@ -200,11 +135,14 @@
         <option value="$PROJECT_DIR$/JS/task4/task4-2.js" />
         <option value="$PROJECT_DIR$/css/task-12/task-12-1.scss" />
         <option value="$PROJECT_DIR$/JS/task4/task4-5.scss" />
-        <option value="$PROJECT_DIR$/JS/task4/task4-1.html" />
         <option value="$PROJECT_DIR$/JS/task4/task4-5.html" />
         <option value="$PROJECT_DIR$/JS/task4/task4-2.html" />
         <option value="$PROJECT_DIR$/JS/task4/task4-3.html" />
         <option value="$PROJECT_DIR$/JS/task4/task4-5.js" />
+        <option value="$PROJECT_DIR$/JS/task4/task4-1.html" />
+        <option value="$PROJECT_DIR$/JS/task5/task5.html" />
+        <option value="$PROJECT_DIR$/JS/task5/task5.js" />
+        <option value="$PROJECT_DIR$/JS/task5/task5.scss" />
       </list>
     </option>
   </component>
@@ -289,43 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhazha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhazha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhazha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhazha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task-12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,12 +373,12 @@
       <workItem from="1502106989980" duration="29742000" />
       <workItem from="1502259902784" duration="40535000" />
       <workItem from="1502852500265" duration="11520000" />
-      <workItem from="1502933990689" duration="41347000" />
+      <workItem from="1502933990689" duration="57526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446448000" />
+    <option name="totallyTimeSpent" value="462627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,21 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../index.html" />
-    <entry file="file://$PROJECT_DIR$/../index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task-1415/task-15-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1448">
@@ -621,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task2/task2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/task3/person.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -657,13 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task2/task2-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -800,14 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -820,14 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
           <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task4/task4-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -848,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task4/task4-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/task4/task4-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-107">
@@ -866,10 +715,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.html">
+    <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="389">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#79#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task4/task4-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -885,6 +744,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -893,21 +760,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task2/task2.html">
+    <entry file="file://$PROJECT_DIR$/JS/task4/task4-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="73" />
+        <state relative-caret-position="660">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/task4/task4-5.js">
+    <entry file="file://$PROJECT_DIR$/JS/task2/task2-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task2/task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task2/task2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task4/task4-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task5/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task5/task5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="e#40#79#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/task5/task5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

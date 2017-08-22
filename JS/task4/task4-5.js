@@ -24,8 +24,8 @@ console.log(allPlayers);
 
 
 
-n.splice(days, 1);
-console.log(n);
+n.splice((n.length-1), 1);
+console.log(n.length);
 
 
 var m = Math.round(n.length/2);
