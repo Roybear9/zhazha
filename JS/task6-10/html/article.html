@@ -1,0 +1,101 @@
+
+
+
+<div class="content-search">
+    <div class="col-md-4 content-pad">
+        <label class="col-md-4 search-label">发布时间</label>
+        <div class="col-md-8">
+            <input type="date" class=" form-control" id="start" ng-model="startAt">
+        </div>
+    </div>
+    <div class="col-md-4 content-pad">
+        <label class="col-md-4 search-label">—</label>
+        <div class="col-md-8">
+            <input type="date"class=" form-control " id="end" ng-model="endAt">
+        </div>
+    </div>
+    <div class="col-md-4 content-pad">
+        <label class="col-md-4 search-label">类&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp型</label>
+        <div class="col-md-8">
+            <select name=""  class="form-control" ng-model="params.type">
+                <option value="">全部</option>
+                <option value="0">首页Banner</option>
+                <option value="1">找职位Banner</option>
+                <option value="2">找精英Banner</option>
+                <option value="3">行业大图</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="col-md-4 content-pad">
+        <label class="col-md-4 search-label">状&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp态</label>
+        <div class="col-md-8">
+            <select name=""  class="form-control" ng-model="params.status">
+                <option value="">全部</option>
+                <option value="2">上线</option>
+                <option value="1">草稿</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="search-btn">
+        <button class="btn btn-danger" ng-click="reset()">清空</button>
+        <button class="btn btn-success" ng-click="search()">搜索</button>
+    </div>
+</div>
+<div class="content-search content-article">
+    <div class="article-head">
+        <strong>Article列表</strong>
+        <button class="btn btn-xs btn-success" ng-click="addEdit()">+新增</button>
+    </div>
+    <div class="article-body">
+        <table class="table table-striped add-table-bordered">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>名称</th>
+                <th>类型</th>
+                <th>发布时间</th>
+                <th>修改时间</th>
+                <th>发布者</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody >
+            <tr ng-repeat="x in article" >
+                <td>{{x.id}}</td>
+                <td>{{x.title}}</td>
+                <td>{{x.type| typeFilter}}</td>
+                <td>{{x.createAt|date: "yyyy-MM-dd HH:mm:ss"}}</td>
+                <td>{{x.updateAt|date: "yyyy-MM-dd HH:mm:ss"}}</td>
+                <td>{{x.author}}</td>
+                <td>{{x.status|statusFilter}}</td>
+                <td>
+                    <button class="btn btn-xs btn-primary" ng-click="changeStatus(x.id,x.status)">{{x.status|btnFilter}}</button>
+                    <button class="btn btn-xs btn-success" ng-click="addEdit(x.id)">编辑</button>
+                    <button class="btn btn-xs btn-danger" ng-click="deleteId(x.id)">删除</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="pull-right">
+        <ul class="pagination ul-page">
+            <li ><button class="btn btn-primary" ng-disabled="firstPage" ng-click="currentPage(1)">首页</button></li>
+            <li ><button class="btn btn-primary" ng-disabled="firstPage"  ng-click="currentPage(n-1)">< 上一页</button></li>
+            <li ng-repeat="x in articlePage" ><button class="btn btn-primary"  ng-click="currentPage(x)">{{x}}</button></li>
+            <li><button class="btn btn-primary"  ng-disabled="endPage" ng-click="currentPage(n+1)">> 下一页</button></li>
+            <li><button class="btn btn-primary"  ng-disabled="endPage" ng-click="currentPage(articleNum)">末页</button></li>
+            <li>
+                去第
+                <input type="text" class="text-center form-sm" ng-model="inputNum" ng-init="inputNum=1">
+                页
+                <button class="btn btn-primary" ng-click="currentPage(inputNum)">确定</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+

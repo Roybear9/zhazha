@@ -1,0 +1,92 @@
+<html lang="en" ng-app="userApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../bt/bs/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../scss/home.css">
+
+    <title>home</title>
+</head>
+<body >
+
+
+
+
+<div class="bg " >
+
+    <div class="head " >
+
+        <div class="head-title ">
+
+            <div class="title">
+
+            <b>萝卜多后台管理系统</b>
+
+        </div>
+
+
+            <div class="head-nav ">
+                <div class="navbar " role="navigation" id="menu-nav">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse collapse">
+                                <span class="sr-only">
+                                    Toggle
+                                </span>
+                                <span class="icon-bar">
+
+                                </span>
+                                <span class="icon-bar">
+
+                                </span>
+                                <span class="icon-bar">
+
+                                </span>
+                            </button>
+
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav" >
+                                <li class="active">
+                                    <a ui-sref=".welcome">
+                                        Welcome</a>
+                                </li>
+                                <li>
+                                    <a ui-sref=".article">
+                                        Article列表</a>
+                                </li>
+
+                                <li>
+                                    <a ui-sref=".uploadFile">
+                                        后台管理</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="head-right ">
+            <div class="head-user">
+                <button>admin</button>
+                <button ui-sref="login"><span class="glyphicon glyphicon-off"></span></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div  class="content-right ">
+        <div  ui-view>
+            <div class="wel">Welcome!</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
